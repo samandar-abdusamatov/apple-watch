@@ -120,6 +120,11 @@ a{
   position: absolute;
   right: 0;
 }
+
+.site-hero__line{
+  position: relative;
+  bottom: -225px;
+}
 /* --------------- HERO SECTION STYLE END --------------- */
 
 /* --------------- MAIN SECTION STYLE END --------------- */

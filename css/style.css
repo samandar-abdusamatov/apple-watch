@@ -66,3 +66,60 @@ a{
   border-bottom: 1px solid black;
 }
 /* --------------- HEADER SECTION STYLE END --------------- */
+
+
+/* --------------- MAIN SECTION STYLE START --------------- */
+
+/* --------------- HERO SECTION STYLE START --------------- */
+.site-hero{
+  position: relative;
+}
+
+.hero-title{
+  display: none;
+}
+
+.site-hero__wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+
+.site-hero__info{
+  width: 100%;
+  max-width: 490px;
+}
+
+.site-hero__title{
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 120%;
+  margin-bottom: 30px;
+}
+
+.site-hero__desc{
+  color: #777;
+  font-size: 16px;
+  line-height: 150%;
+  padding-left: 40px;
+  border-left: 3px solid #888;
+  margin-bottom: 30px;
+}
+
+.site-hero__btn{
+  display: inline-block;
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 150%;
+  text-transform: uppercase;
+  padding: 12px;
+  background-color: #EA625C;
+}
+
+.site-hero__imag{
+  position: absolute;
+  right: 0;
+}
+/* --------------- HERO SECTION STYLE END --------------- */
+
+/* --------------- MAIN SECTION STYLE END --------------- */

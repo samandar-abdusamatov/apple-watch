@@ -182,7 +182,7 @@ a{
 .info__wrapper{
   display: flex;
   justify-content: space-between;
-  margin-top: 70px;
+  margin: 70px 0 70px;
 }
 
 .info__wrapper-start{
@@ -191,5 +191,32 @@ a{
   margin-right: 110px;
 }
 /* --------------- INFO SECTION STYLE END --------------- */
+
+/* --------------- RUNNER SECTION STYLE START --------------- */
+.runner{
+  
+  display: flex;
+  justify-content: end;
+  height: 830px;
+  background-image: url(../images/runners-backround.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.runner-information{
+  width: 100%;
+  max-width: 490px;
+  margin: 240px 125px 339px 0;
+}
+
+.runner-title{
+  color: #FFF;
+}
+
+.runner-desc{
+  color: #FFF;
+  border-color: #FFF;
+}
+/* --------------- RUNNER SECTION STYLE END --------------- */
 
 /* --------------- MAIN SECTION STYLE END --------------- */

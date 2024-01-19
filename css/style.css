@@ -117,14 +117,65 @@ a{
 }
 
 .site-hero__imag{
-  position: absolute;
-  right: 0;
+  /* position: absolute;
+  right: 0; */
 }
 
 .site-hero__line{
-  position: relative;
-  bottom: -225px;
+  /* position: relative;
+  bottom: -225px; */
+  margin: 0;
 }
 /* --------------- HERO SECTION STYLE END --------------- */
+
+/* --------------- INTEREST SECTION STYLE START --------------- */
+.interest{
+  padding: 40px 0;
+}
+
+.interest-list{
+  display: flex;
+  justify-content: space-between;
+  gap: 80px;
+}
+
+.interest-item{
+  width: 100%;
+  max-width: 280px;
+}
+
+.interest-item__title{
+  color: #222;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 150%;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.interest-item__desc{
+  color: #333;
+  font-size: 15px;
+  line-height: 160%;
+  margin-bottom: 20px;
+}
+
+.interest-item__btn{
+  display: flex;
+  color: #EA625C;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  text-transform: uppercase;
+  align-items: center;
+}
+
+.interest-item__line{
+  width: 40px;
+  height: 3px;
+  margin-right: 10px;
+  background-color: #EA625C;
+}
+/* --------------- INTEREST SECTION STYLE END --------------- */
 
 /* --------------- MAIN SECTION STYLE END --------------- */

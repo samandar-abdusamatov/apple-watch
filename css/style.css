@@ -130,7 +130,7 @@ a{
 
 /* --------------- INTEREST SECTION STYLE START --------------- */
 .interest{
-  padding: 40px 0;
+  padding: 70px 0;
 }
 
 .interest-list{
@@ -179,6 +179,10 @@ a{
 /* --------------- INTEREST SECTION STYLE END --------------- */
 
 /* --------------- INFO SECTION STYLE START --------------- */
+.info{
+  padding: 70px 0;
+}
+
 .info__wrapper{
   display: flex;
   justify-content: space-between;

@@ -24,6 +24,33 @@ a{
   margin: 0 auto;
 }
 
+.title{
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 120%;
+  margin-bottom: 30px;
+}
+
+.desc{
+  color: #777;
+  font-size: 16px;
+  line-height: 150%;
+  padding-left: 40px;
+  border-left: 3px solid #888;
+  margin-bottom: 30px;
+}
+
+.btn{
+  display: inline-block;
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 150%;
+  text-transform: uppercase;
+  padding: 12px;
+  background-color: #EA625C;
+}
+
 /* --------------- HEADER SECTION STYLE START --------------- */
 .site-header{
   position: sticky;
@@ -89,33 +116,6 @@ a{
   max-width: 490px;
 }
 
-.site-hero__title{
-  font-size: 50px;
-  font-weight: 700;
-  line-height: 120%;
-  margin-bottom: 30px;
-}
-
-.site-hero__desc{
-  color: #777;
-  font-size: 16px;
-  line-height: 150%;
-  padding-left: 40px;
-  border-left: 3px solid #888;
-  margin-bottom: 30px;
-}
-
-.site-hero__btn{
-  display: inline-block;
-  color: #FFF;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 150%;
-  text-transform: uppercase;
-  padding: 12px;
-  background-color: #EA625C;
-}
-
 .site-hero__imag{
   /* position: absolute;
   right: 0; */
@@ -177,5 +177,18 @@ a{
   background-color: #EA625C;
 }
 /* --------------- INTEREST SECTION STYLE END --------------- */
+
+/* --------------- INFO SECTION STYLE START --------------- */
+.info__wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+
+.info__wrapper-start{
+  width: 100%;
+  max-width: 490px;
+  margin-right: 110px;
+}
+/* --------------- INFO SECTION STYLE END --------------- */
 
 /* --------------- MAIN SECTION STYLE END --------------- */
